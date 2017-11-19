@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "068ee5559f15e020194e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b6f6dc83567a2cb532a8"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -43699,7 +43699,7 @@ var render = function() {
     [
       _c(
         "mt-header",
-        { attrs: { fixed: "", title: "vue项目01" } },
+        { attrs: { fixed: "", title: "闫赛个人vue项目" } },
         [
           _c(
             "mt-button",
@@ -45496,6 +45496,7 @@ if(true) {
   methods: {
     getCount(count, id) {
       __WEBPACK_IMPORTED_MODULE_1__store_store_js__["a" /* default */].commit("updateCart", { id, count });
+      this.count = count;
     }
   }
 });
