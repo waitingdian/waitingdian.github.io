@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d336d7f5b482d4edac89"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "35a498c0e1f3d469c4ff"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -44192,7 +44192,7 @@ var render = function() {
                 attrs: { src: __webpack_require__(176), alt: "" }
               }),
               _vm._v(" "),
-              _c("div", { staticClass: "mui-media-body" }, [_vm._v("浏览反馈")])
+              _c("div", { staticClass: "mui-media-body" }, [_vm._v("商品推荐")])
             ])
           ],
           1
@@ -44210,7 +44210,7 @@ var render = function() {
                 attrs: { src: __webpack_require__(177), alt: "" }
               }),
               _vm._v(" "),
-              _c("div", { staticClass: "mui-media-body" }, [_vm._v("视频专区")])
+              _c("div", { staticClass: "mui-media-body" }, [_vm._v("图片影音")])
             ])
           ],
           1
@@ -44228,7 +44228,7 @@ var render = function() {
                 attrs: { src: __webpack_require__(178), alt: "" }
               }),
               _vm._v(" "),
-              _c("div", { staticClass: "mui-media-body" }, [_vm._v("视频专区")])
+              _c("div", { staticClass: "mui-media-body" }, [_vm._v("生活娱乐")])
             ])
           ],
           1
