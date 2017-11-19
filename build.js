@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "35a498c0e1f3d469c4ff"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "6b6320f60488607b05c9"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -17406,7 +17406,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.news-header{\n    padding-top:8px;\n}\n.news-header h4{\n    line-height: 1.5;\n}\n.news-header p::after{\n    content:\"\";\n    display: block;\n    height: 0;\n    clear:both;\n}\n.add-time{\n    float: left;\n}\n.clik-count{\n    float:right;\n}\n.news-wrap{\n    overflow: hidden;\n}\n.news-wrap img{\n    width: 100%;\n}\n.content-wrap p{\n    text-indent: 2em;\n}\n\n", ""]);
+exports.push([module.i, "\n.news-header{\n        padding-top:8px;\n}\n.news-header h4{\n        line-height: 1.5;\n}\n.news-header p::after{\n        content:\"\";\n        display: block;\n        height: 0;\n        clear:both;\n}\n.add-time{\n        float: left;\n}\n.clik-count{\n        float:right;\n}\n.news-wrap{\n        overflow: hidden;\n}\n.news-content{\n    overflow: hidden;\n}\n.news-content img{\n    width: 100%;\n}\n\n", ""]);
 
 // exports
 
@@ -46221,7 +46221,7 @@ var render = function() {
       2
     ),
     _vm._v(" "),
-    _c("div", { staticClass: "content-wrap" }, [
+    _c("div", { staticClass: "news-content" }, [
       _c("p", { domProps: { innerHTML: _vm._s(_vm.newsInfo.content) } })
     ])
   ])
